@@ -3,5 +3,4 @@ public interface IMenuDeStrings
 {
     void ExibirMenuDeStrings();
     string CadastrarStrings();
-    void StringCadastrada();
 }

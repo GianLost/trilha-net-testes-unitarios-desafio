@@ -42,7 +42,7 @@ namespace TestesUnitarios.Desafio.Console.Models
             System.Console.WriteLine();
             System.Console.WriteLine("==================== TESTAR LISTAS ====================");
             System.Console.WriteLine();
-            System.Console.WriteLine("1-Remover Numeros Negativos \n2-Buscar Determinado número \n3-Multiplicar Numeros da Lista \n4-Retornar Maior Numero da Lista \n5-Retornar Menor Numero da Lista \n0-sair ");
+            System.Console.WriteLine("1-Remover Numeros Negativos \n2-Buscar Determinado número \n3-Multiplicar Numeros da Lista \n4-Retornar Maior Numero da Lista \n5-Retornar Menor Numero da Lista \n0-Voltar ");
             System.Console.WriteLine();
             System.Console.WriteLine("=======================================================");
             System.Console.WriteLine();
@@ -110,7 +110,7 @@ namespace TestesUnitarios.Desafio.Console.Models
                 case "0":
 
                     System.Console.WriteLine();
-                    System.Console.WriteLine("saindo...");
+                    System.Console.WriteLine("retornando ...");
                     System.Console.WriteLine();
                     break;
 
