@@ -49,7 +49,7 @@ public class ValidacoesListaTests
         Assert.False(resultado);
     }
 
-    [Fact]
+    [Fact] //TODO: Corrigir a anotação [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
         //TODO: Implementar método de teste
@@ -57,10 +57,10 @@ public class ValidacoesListaTests
         // Arrange
         List<int> lista = new() { 5, 7, 8, 9 };
         List<int> resultadoEsperado = new() { 10, 14, 16, 18 };
-        
+
         // Act
         List<int> resultado = _validacoes.MultiplicarNumerosLista(lista, 2);
-        
+
         // Assert
         Assert.Equal(resultadoEsperado, resultado);
     }
@@ -75,7 +75,7 @@ public class ValidacoesListaTests
 
         // Act
         int resultado = _validacoes.RetornarMaiorNumeroLista(lista);
-        
+
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         Assert.Equal(9, resultado);
